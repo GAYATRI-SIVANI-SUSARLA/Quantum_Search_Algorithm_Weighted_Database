@@ -10,5 +10,26 @@
     search.
 - We addressed the key challenges in designing an adaptive Grover search compared it with the 
    original Grover Algorithm, and explained about results for distributions in real-world weighted 
-   data. In conclusion, our project provides a few enhancements to the original Grover’s search 
+   data.
+- In conclusion, our project provides a few enhancements to the original Grover’s search 
    implementation strategies and scalability of the algorithm.
+
+  ## Installation
+  ### Prerequisites
+  - Python 3.7 or later
+  - pip or conda package manager
+  ### Installing Qiskit
+  Follow these steps to install Qiskit and the required dependencies:
+```python
+   # Create and activate a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install Qiskit and dependencies
+pip install qiskit
+```
+For detailed installation and troubleshooting, refer to the [Official Qiskit Installation Guide](https://docs.quantum.ibm.com/guides/install-qiskit)
+
+
+
+
