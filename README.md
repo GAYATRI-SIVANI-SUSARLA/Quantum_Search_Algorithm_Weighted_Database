@@ -32,12 +32,19 @@ For detailed installation and troubleshooting, refer to the [Official Qiskit Ins
 
 ## Data Description
 The project uses quantum state measurement data located in the data/ directory. The dataset includes:
+```
 data/
 ├── heavy_tail_samples.txt       
 ├── normal_distribution_samples.txt
 ├── normal_distribution_samples.txt
 ├── quasi_uniform_samples.txt
-└── uniform_distribution.txt  
+└── uniform_distribution.txt
+```
+
+Example distribution from our dataset:
+
+
+
 
 
 
