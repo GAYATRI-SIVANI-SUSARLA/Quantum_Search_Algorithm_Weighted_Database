@@ -20,7 +20,7 @@
   ### Installing Qiskit
   Follow these steps to install Qiskit and the required dependencies:
 ```python
- # Create and activate a virtual environment (recommended)
+# Create and activate a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
@@ -42,7 +42,43 @@ data/
 
 Example distribution from our dataset:
 ![heavy tail_distribution](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Data/heavy_tail.jpg)
+![normal](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Data/normal.jpg)
+![quasi uniform](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Data/quasi_unifrom.jpg)
+![uniform](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Data/unifrom.jpg)
 
+The distribution graph shows the probability distribution of datasets.
+
+## Running the Analysis 
+1. Prepare your environment (see Installation section)
+2. Run the `data_process.py`, and do a classical linear search on each database:
+   `python3 data_process.py`
+   Code Link: [Data_Process-Code](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/data_process.py)
+
+3. Run the `quantum_step.py`, and do an adaptive Grover search on each database:
+  `python3 quantum_step.py`
+   Code Link: [Quantum Step-Code](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/quantum_step%20(1).py)
+
+4. Run the script `compare.py` to analyze and compare the number of steps required to locate 
+   each piece of data using classical versus quantum approaches:
+   `python3 compare.py`
+   Code Link: [Compare-Code](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/compare.py)
+
+   ## Results
+   The analysis results are saved in the `output/` directory:
+   `output/
+├── heavy_tail.jpg     
+├── noraml.jpg   
+├── quasi_uniform.jpg   
+└── unifrom.jpg `
+Example visualization of results:
+![heavytail](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Output/heavy_tail%20(1).jpg)
+![normal](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Output/normal%20(2).jpg)
+![quasi uniform](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Output/quasi_uniform.jpg)
+![uniform](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Output/unifrom%20(1).jpg)
+
+## Final Paper
+ Final Paper for the project: [Adaptive Grover for Quantum Search](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Adaptive_grover_for_Quantum_Search_Fianl_Paper.pdf)
+  
 
 
 
