@@ -51,16 +51,16 @@ The distribution graph shows the probability distribution of datasets.
 ## Running the Analysis 
 1. Prepare your environment (see Installation section)
 2. Run the `data_process.py`, and do a classical linear search on each database:
-   ```python3
+    ```python3
    data_process.py
    ```
    Code Link: [Data_Process-Code](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/data_process.py)
 
 4. Run the `quantum_step.py`, and do an adaptive Grover search on each database:
-  ```python3
-quantum_step.py
-```
-   Code Link: [Quantum Step-Code](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/quantum_step%20(1).py)
+    ```python3
+   quantum_step.py
+   ```
+  Code Link: [Quantum Step-Code](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/quantum_step%20(1).py)
 
 5. Run the script `compare.py` to analyze and compare the number of steps required to locate 
    each piece of data using classical versus quantum approaches:
