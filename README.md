@@ -30,7 +30,7 @@ pip install qiskit
 For detailed installation and troubleshooting, refer to the [Official Qiskit Installation Guide](https://docs.quantum.ibm.com/guides/install-qiskit)
 
 ## Data Description
-The project uses quantum state measurement data located in the data/ directory. The dataset includes:
+The project uses quantum state measurement data located in the `data/` directory. The dataset includes:
 ```
 data/
 ├── heavy_tail_samples.txt       
