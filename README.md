@@ -41,6 +41,7 @@ data/
 ```
 
 Example distribution from our dataset:
+[heavy tail_distribution](https://github.com/GAYATRI-SIVANI-SUSARLA/Quantum_Search_Algorithm_Weighted_Database/blob/main/Data/heavy_tail.jpg)
 
 
 
